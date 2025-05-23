@@ -18,15 +18,12 @@ const nextConfig = {
     ],
     unoptimized: true,
   },
-  // output: 'export', // don't use with `next start` or api route
-  // distDir: 'dist',
-  // avoid CORS with proxy
+  output: 'export', // ✅ 開啟靜態導出
   async rewrites() {
     return [
       {
         source: '/api/:path*',
-        destination: 'https://makin-backend.vercel.app/:path*', // Proxy to Backend
-        // :path*：這是一個佔位符，表示將匹配 source 中的所有路徑。* 代表匹配任何子路徑。
+        destination: 'https://makin-backend.vercel.app/:path*',
       },
     ]
   },
