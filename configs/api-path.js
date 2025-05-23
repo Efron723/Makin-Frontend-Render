@@ -1,4 +1,4 @@
-export const API_SERVER = 'https://makin-backend-render.onrender.com'
+export const API_SERVER = 'https://makin-backend.onrender.com'
 
 export const ACT_LIST = `${API_SERVER}/api/activity/`
 // export const AB_ADD_POST = `${API_SERVER}/address-book/add`

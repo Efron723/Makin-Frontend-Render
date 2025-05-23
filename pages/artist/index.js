@@ -103,7 +103,7 @@ export default function Artist() {
 
   // spotify 授權隱藏按鈕
   const handleLogin = () => {
-    router.push('https://makin-backend-render.onrender.com/login')
+    router.push('https://makin-backend.onrender.com/login')
   }
 
   // 頁面重新渲染時：取得列表、搜尋條件

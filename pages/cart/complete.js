@@ -28,7 +28,7 @@ export default function Complete() {
     { label: '購物車', href: '/cart' },
   ]
   const { store711, openWindow, closeWindow } = useShip711StoreOpener(
-    'https://makin-backend-render.onrender.com/api/shipment/711'
+    'https://makin-backend.onrender.com/api/shipment/711'
   )
   const storeKey = 'store711'
   const { userProfile, orderNum } = useTotal()

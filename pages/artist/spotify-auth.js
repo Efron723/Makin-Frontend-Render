@@ -6,8 +6,8 @@ const SpotifyAuth = () => {
   const router = useRouter()
 
   const handleLogin = () => {
-    router.push('https://makin-backend-render.onrender.com/login')
-    // window.location.href = 'https://makin-backend-render.onrender.com/login'
+    router.push('https://makin-backend.onrender.com/login')
+    // window.location.href = 'https://makin-backend.onrender.com/login'
   }
 
   return (

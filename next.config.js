@@ -23,7 +23,7 @@ const nextConfig = {
     return [
       {
         source: '/api/:path*',
-        destination: 'https://makin-backend-render.onrender.com/:path*',
+        destination: 'https://makin-backend.onrender.com/:path*',
       },
     ]
   },

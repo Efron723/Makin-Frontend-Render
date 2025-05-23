@@ -1,4 +1,4 @@
-export const API_SERVER = 'https://makin-backend-render.onrender.com/api'
+export const API_SERVER = 'https://makin-backend.onrender.com/api'
 
 export const addFavorite = async (eventId) => {
   try {
