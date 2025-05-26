@@ -18,11 +18,12 @@ const nextConfig = {
     ],
     unoptimized: true,
   },
+  output: 'export', // ✅ 開啟靜態導出
   async rewrites() {
     return [
       {
         source: '/api/:path*',
-        destination: 'https://makin-backend.onrender.com/api/:path*',
+        destination: 'https://makin-backend.onrender.com/:path*',
       },
     ]
   },
